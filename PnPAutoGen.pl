@@ -178,9 +178,13 @@ sub DisplayHelp
     print " -feeder abcd.txt   : Feeder location file\n";    
     print " -x xxxx            : Global placement x offset\n";    
     print " -y yyyy            : Global placement y offset\n";    
+    print " -z yyyy            : Global placement z offset\n";    
     print " -putest [Y/N]      : Genertate test pickup of all components in feeder location file\n";
     print " -comptest [Y/N/M]  : Generate test pickup and place for each different component in PnP file. Front left most component positions used. 'M' uses BOARDNAME, 'Y' uses 'COMPONENTTEST, BRD60FXX.DIR'\n";
     print " -sort [F/P]        : Select report file list sort order. 'F' sorts by feeder, 'P' sorts by pickup count\n";
+    print " -lifter [Y/N]      : Lift PCB after transport feed\n";
+    print " -xscale xxxx       : Global placement x scale factor\n";    
+    print " -yscale xxxx       : Global placement y scale factor\n";    
 }
 
 #Constants
@@ -1778,7 +1782,10 @@ ProcessArgs();
 
 if (CheckArguments() == 0)
 {
-    ReadFeederPickup("FeederPickupReels.txt");
+    if (-e "FeederPickupReels.txt")
+    {
+        ReadFeederPickup("FeederPickupReels.txt");
+    }
     if ($FeederFile ne "")
     {
         ReadFeederPickup("$FeederFile");
