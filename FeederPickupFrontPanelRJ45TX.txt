@@ -1,0 +1,25 @@
+# Positive orientation delta = clockwise rotation
+# Rows        = For 'waffle' feeders, the number of components in a row. Columns cause stepping right to left
+# Columns     = For 'waffle' feeders, the number of components in a column. Rows cause stepping back to front
+
+
+## "waffle" feeder positions
+#Front panel components
+#Feeder		X	Y	Z	Orientation	Columns	Rows	Location
+W-BAS16		5683	22623	973	180		10	1	Location = 1A
+W-TL497		5792	19455	947	0		10	1	Location = 1B
+W-TSC2007	5718	16274	953	0		10	1	Location = 1C
+W-1G14		5655	14560	976	90		10	1	Location = 1D
+W-30PIN0.5mm	5933	11416	982	0		10	1	Location = 1E
+W-10UH		6386	21126	931	180		20	1	Location = 1A-2
+W-100UH		6383	17651	938	180		20	1	Location = 1B-2
+
+#RJ45 TX components
+#Feeder		X	Y	Z	Orientation	Columns	Rows	Location	Used on
+W-ESD5		6834	22232	986	90		12	1	2A		TX
+W-2G53		6872	18415	988	90		24	1	2B
+W-5V6		7776	10905	988	180		24	1	3C-2		TX
+W-8147		7463	10939	969	270		24	1	3C		TX
+W-9535		7566	22427	956	0		6	1	3A		TX
+W-3302		7562	18565	936	0		12	1	3B		TX
+W-6041		6901	10893	940	0		24	1	2C		TX

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="168d3241-90f8-4bfc-841c-b76ae90d24ce" kpf_version="4" name="PnPAutoGen.kpf">
+<preference-set idref="168d3241-90f8-4bfc-841c-b76ae90d24ce">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+<preference-set idref="168d3241-90f8-4bfc-841c-b76ae90d24ce/PnPAutoGen.pl">
+<preference-set id="Invocations">
+<preference-set id="default">
+  <string id="cookieparams"></string>
+  <string id="cwd"></string>
+  <long id="debugger.io-port">9011</long>
+  <string id="documentRoot"></string>
+  <string id="executable-params"></string>
+  <string relative="path" id="filename">PnPAutoGen.pl</string>
+  <string id="getparams"></string>
+  <string id="language">Perl</string>
+  <string id="mpostparams"></string>
+  <string id="params">-input "D:\Hardware Projects\Zenseio\Boards\Main panel array\Modular - panel-top.pos" -thick 53 -width 206 -height 283 -name ZensioMB -quad BRD2d5xx.dir -format KiCad -feeder FeederPickupZensioMB_Environmental_ThinGuide.txt -y 7 -x 199 -side T -vision y -putest n -comptest y</string>
+  <string id="postparams"></string>
+  <string id="posttype">application/x-www-form-urlencoded</string>
+  <string id="request-method">GET</string>
+  <boolean id="show-dialog">1</boolean>
+  <boolean id="sim-cgi">0</boolean>
+  <boolean id="use-console">0</boolean>
+  <string id="userCGIEnvironment"></string>
+  <string id="userEnvironment"></string>
+  <string id="warnings">enabled</string>
+</preference-set>
+</preference-set>
+  <string id="lastInvocation">default</string>
+</preference-set>
+</project>
