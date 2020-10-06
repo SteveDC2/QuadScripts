@@ -26,30 +26,6 @@ use File::Path;
 #Ace lite RCP boards for Revision 1.0 emulator
 #-input "D:\Hardware Projects\AceLite\Project Outputs\Pick Place Output\Pick Place for RCP_PP_For_Rev1.0_EVM.txt" -thick 35 -width 3750 -height 5750 -name RCP1_0 -quad BRD317xx.dir -format Altium -feeder FeederPickupSwitcher.txt -x -157 -y 0 -vision y -comptest n -side T -xscale 1.011 -yscale 1.003
 
-#Pick and place for Zensio Environmental panel array - base + noise + air quality configuration
-#-input "D:\Hardware Projects\Zenseio\Boards\Environmental Module1\EnvironmentalSetBaseNoiseAQRotated.txt" -thick 53 -width 7874 -height 3700 -name ZensioEnvironmentalBaseNoiseAQ -quad BRD7dbxx.dir -format Altium -feeder FeederPickupZensioMB_Environmental.txt -x -8 -y 9 -vision y -comptest n -side T
-
-#Pick and place for Zensio Environmental panel array - base + noise configuration
-#-input "D:\Hardware Projects\Zenseio\Boards\Environmental Module1\EnvironmentalSetBaseNoiseRotated.txt" -thick 53 -width 7874 -height 3700 -name ZENZIOENVIRONMENTALBASENOISE -quad BRD9a2xx.dir -format Altium -feeder FeederPickupZensioMB_Environmental.txt -x -8 -y 9 -vision y -comptest n -side T
-
-#Pick and place for Zensio Environmental panel array - base configuration
-#-input "D:\Hardware Projects\Zenseio\Boards\Environmental Module1\EnvironmentalSetBaseRotated.txt" -thick 53 -width 7874 -height 3700 -name ZensioEnvironmentalBase -quad BRD5bbxx.dir -format Altium -feeder FeederPickupZensioMB_Environmental.txt -x -8 -y 9 -vision y -comptest n -side T
-
-#Pick and place for Zensio Battery panel array
-#-input "D:\Hardware Projects\Zenseio\Boards\BatteryModule\Panel-top.pos" -thick 53 -width 94 -height 200 -name ZensioBattery -quad BRD321xx.dir -format KiCad -feeder FeederPickupZensioMB_GPS_BATTERY.txt -x -3 -y -350 -vision y -comptest n -side T
-
-#Pick and place for Zensio GPS panel array
-#-input "D:\Hardware Projects\Zenseio\Boards\GPS\Panel-bottom.pos" -thick 53 -width 206 -height 283 -name ZensioGPS -quad BRD2C6xx.dir -format KiCad -feeder FeederPickupZensioMB_GPS.txt -y -3614 -x 0 -vision y -comptest n -side B
-
-#Pick and place for Zensio main board panel array top
-#-input "D:\Hardware Projects\Zenseio\Boards\Main panel array\Modular - panel-top.pos" -thick 53 -width 206 -height 283 -name ZensioMB -quad BRD2d5xx.dir -format KiCad -feeder FeederPickupZensioMB_Environmental_ThinGuide.txt -y 7 -x 199 -side T -vision y -putest N -comptest N
-
-#Pick and place for Zensio main board panel array bottom
-#-input "D:\Hardware Projects\Zenseio\Boards\Main panel array\Modular - panel-bottom_manual.pos" -thick 53 -width 206 -height 283 -name ZensioMBBottom -quad BRD4B0xx.dir -format KiCad -feeder FeederPickupZensioMB_Environmental_New.txt -y 2 -x -212 -side B -vision y -putest N -comptest N
-
-#Pick and place for Zensio main board single
-#-input "D:\Hardware Projects\Zenseio\Boards\Main single\Modular-top.pos" -thick 63 -width 96 -height 55 -name ZensioMB -quad BRD2d5xx.dir -format KiCad -feeder FeederPickupZensioMB.txt -y 28 -x 3
-
 #File for USB Type-C simple switcher simple
 #-input "D:\Hardware Projects\CableSwitcher\Project Outputs\Pick Place Output\Pick Place for SwitcherSimple-3xPanel.txt" -thick 48 -width 6142 -height 3937 -name Switcher -quad BRD345xx.dir -feeder FeederPickupSwitcher.txt -y 1 -x 1
 
@@ -95,10 +71,6 @@ use File::Path;
 
 #Convert data to AutoProg
 #-input "source\Pick Place for SlaveBoard V5b.txt" -height 9157 -autoprog Y
-
-#Teeny x4
-#Board name = "JAILBREAK"
-#-height 2331 -width 3144 -input "source\Pick Place for Teenyx4.txt" -thick 63 -quad BRD2B7XX.DIR -feeder "FeederPickupReceivers.txt"
 
 #Pickup test sequence
 #Board name = "PUTEST"
